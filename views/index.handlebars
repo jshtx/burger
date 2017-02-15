@@ -1,6 +1,14 @@
 <h1>Burgers</h1>
 
+<div>
+  <img src="../public/assets/img/burger.png" alt="burger">
+</div>
+
+
+<div id="left">
 <h2>Uneaten Burgers</h2>
+
+
 
 <ul>
   {{#each burgers}}
@@ -18,6 +26,10 @@
   {{/each}}
 </ul>
 
+</div>
+
+<div id="right">
+
 <h2>Burgers that have been eaten</h2>
 
 <ul>
@@ -34,7 +46,7 @@
   {{/each}}
 </ul>
 
-
+</div>
 
 <h2>Add a Burger</h2>
 <form class="create-update-form" action="/" method="POST">
